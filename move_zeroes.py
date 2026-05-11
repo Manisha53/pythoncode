@@ -3,7 +3,7 @@
 # Example 2: Input: [0,0,1] Output: [1,0,0]
 
 ls = list(map(int, input("Enter space separated list of numbers: ").split()))
-print(ls)
+# print(ls)
 pos = 0 # assume, this is position of non-zero element
 for i in range(len(ls)):
     if ls[i] != 0:
